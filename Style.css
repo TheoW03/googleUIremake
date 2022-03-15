@@ -1,0 +1,124 @@
+
+#im{
+    height: 35px;
+    font-family: sans-serif;
+}
+#S{
+    height: 35px;
+    font-family: sans-serif;
+}
+#googleButton{
+    height: 35px;
+    font-family: sans-serif;
+}
+.bottomDiv{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: gainsboro;
+    width: 100vw;
+    font-family: sans-serif;
+    
+}
+.centerBottom{
+    position: absolute;
+    bottom: 0;
+    left: 40vw;
+    height: 50px;
+    
+    background-color: gainsboro;
+    font-family: sans-serif;
+
+}
+.farRight{
+    position: absolute;
+    bottom: 0;
+    left: 80vw;
+    background-color: gainsboro;
+    font-family: sans-serif;
+}
+
+.logo{
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    font-family: sans-serif;
+    height: 300px;
+
+}
+.logo.logPic{
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    font-family: sans-serif;
+    height: 200px;
+}
+#search{
+    height:35px;
+    width: 400px;
+    border-radius: 10px;
+    border-color: white;
+    background-color: gainsboro;
+    border-style:none;
+    
+    font-size: 15pt;
+}
+.container{
+    display: flex;
+    justify-content: right;
+    text-align: left;
+    font-family: sans-serif;
+    height: 100px;
+}
+.About{
+    display: flex;
+    justify-content: left;
+    text-align: right;
+    font-family: sans-serif;
+    font-size: 14px;
+    height: 0;
+    width: 5;
+
+}
+
+a {
+    text-decoration: none;
+}
+  
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+#sign-in{
+    background-color:rgb(29, 60, 255);
+    color: white;
+    border-color: black;
+    font-family: sans-serif;
+    font-size: 16px;
+    border-radius: 6px;
+    box-shadow: none;
+    padding: 10px;
+    width: 100px;
+    height: 37px;    
+    border-style: none;
+}
+#apps{
+    background-color: rgb(29, 60, 255);
+    color: white;
+    font-family: sans-serif;
+    border-color: black;
+    font-size: 16px;
+    border-radius: 6px;
+    box-shadow: none;
+    padding: 10px;
+    width: 40px;
+    height: 37px;
+    border-style: none;
+    
+}
+#apps:hover{
+    background-color: rgb(29, 0, 255);
+}
+#sign-in:hover{
+    background-color: rgb(29, 0, 255);
+}
